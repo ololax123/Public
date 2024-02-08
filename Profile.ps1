@@ -21,7 +21,7 @@ Function Get-Functions {
 
  
 # Set oh-my-posh theme
-oh-my-posh init pwsh --config "https://raw.githubusercontent.com/qhrizz/Public/master/Windows/Powershell/kali.omp.json" | Invoke-Expression
+#oh-my-posh init pwsh --config "https://raw.githubusercontent.com/qhrizz/Public/master/Windows/Powershell/kali.omp.json" | Invoke-Expression
 
 # Mock function to test if the profile has loaded
 Function Invoke-Hello {
@@ -244,7 +244,7 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 Write-Host "---------------------"
 $endText = @"
-Profile loaded!
+Görans profile loaded!
 ヽ(°◇° )ノ 
 "@
 
