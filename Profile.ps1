@@ -244,7 +244,7 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
 Write-Host "---------------------"
 $endText = @"
-Görans profile loaded!
+Görans (stolen) profile loaded!
 ヽ(°◇° )ノ 
 "@
 
